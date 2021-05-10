@@ -5,7 +5,7 @@
         /// <summary>
         /// Initializes the colors
         /// </summary>
-        public enum Color { red, blue }
+        public enum Color { Red, Blue }
 
         #region Properties
 

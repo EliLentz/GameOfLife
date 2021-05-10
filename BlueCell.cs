@@ -4,7 +4,7 @@
     {
         public BlueCell()
         {
-            ColorOfCell = Color.blue;
+            ColorOfCell = Color.Blue;
             isDead = false;
         }
 

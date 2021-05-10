@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Matrix.Matrix _matrix = new Matrix.Matrix();
+            Interface.Matrix _matrix = new Interface.Matrix();
         }
     }
 }
