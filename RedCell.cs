@@ -1,4 +1,4 @@
-﻿using Matrix;
+﻿using Interface;
 
 namespace Cells
 {
@@ -6,7 +6,7 @@ namespace Cells
     {
         public RedCell()
         {
-            ColorOfCell = Color.red;
+            ColorOfCell = Color.Red;
             isDead = false;
         }
 

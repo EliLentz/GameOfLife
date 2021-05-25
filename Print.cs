@@ -1,7 +1,7 @@
 ﻿using System;
 using Cells;
 
-namespace Matrix
+namespace Interface
 {
     class Print
     {
@@ -21,7 +21,7 @@ namespace Matrix
                     {
                         Console.Write(' ');
                     }
-                    else if (currentMatrix[i, j].ColorOfCell == Cell.Color.blue)
+                    else if (currentMatrix[i, j].ColorOfCell == Cell.Color.Blue)
                     {
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.Write('♦');
